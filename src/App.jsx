@@ -3,20 +3,22 @@ import './App.css';
 
 const Navbar = () => {
   return (
-    <nav className="navbar container">
-      <div className="logo">
-         <img src="/home_logo.png" alt="AIONIX" className="logo-img" />
-      </div>
-      <div className="nav-links">
-         <a href="#home">Home</a>
-         <a href="#platform">Platform</a>
-         <a href="#features">Features</a>
-         <a href="#integrations">Integrations</a>
-         <a href="#insights">Insights</a>
-         <a href="#contact">Contact</a>
-      </div>
-      <div className="nav-actions">
-         <button className="button button-gradient">GET EARLY ACCESS</button>
+    <nav className="navbar">
+      <div className="container nav-container">
+        <div className="logo">
+           <img src="/home_logo.png" alt="AIONIX" className="logo-img" />
+        </div>
+        <div className="nav-links">
+          <a href="#home">Home</a>
+          <a href="#platform">Platform</a>
+          <a href="#features">Features</a>
+          <a href="#integrations">Integrations</a>
+          <a href="#insights">Insights</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div className="nav-cta">
+          <button className="button-primary nav-btn">GET EARLY ACCESS</button>
+        </div>
       </div>
     </nav>
   );
